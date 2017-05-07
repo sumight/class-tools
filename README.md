@@ -1,4 +1,4 @@
-# CSS-UTILS
+# Class Tools
 
 CSS-UTILS is a css library that offer util classes frequently-used.
 

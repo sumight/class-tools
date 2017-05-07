@@ -8,7 +8,7 @@ var rename = require('gulp-rename')
 
 gulp.task('default', function() {
   gulp.src('src/index.less')
-    .pipe(rename('utils.min.css'))
+    .pipe(rename('class-tools.min.css'))
     .pipe(sourcemaps.init())
       .pipe(less())
       .pipe(cleancss({}))
@@ -16,7 +16,7 @@ gulp.task('default', function() {
     .pipe(gulp.dest('dist'));
 
   gulp.src('src/index.less')
-    .pipe(rename('utils.css'))
+    .pipe(rename('class-tools.css'))
     .pipe(less())
     .pipe(gulp.dest('dist'));
 });
