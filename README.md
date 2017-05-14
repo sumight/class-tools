@@ -75,6 +75,7 @@ ClassName | Description
 `.inline`| display inline
 `.block`| display block
 `.inline-block`| display inlin-block
+`.none`| display none
 
 # Position
 
@@ -95,7 +96,8 @@ ClassName | Description
 ClassName | Description
 ---------|----------
 `.pointer`| cursor pointer
-`.forbid`| cursor not-allowed
+`.not-allowed`| cursor not-allowed
+`.help`| cursor help
 
 # Layout
 
@@ -105,3 +107,9 @@ ClassName | Range| Description
 `.col-[x]`| [1,2...12] | 栅格的列，按百分比划分为 1/12
 `.grow-[x]`| [1,2...12] | 栅格的列，按比例划分
 `.grow`|  | 相当于 `.grow-1`
+
+# Visibility
+
+ClassName | Description
+---------|----------
+`.hidden`| visibility hidden
