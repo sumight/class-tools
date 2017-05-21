@@ -1,6 +1,6 @@
 {
   "name": "class-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/class-tools.min.css",
   "scripts": {
