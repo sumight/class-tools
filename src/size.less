@@ -1,6 +1,6 @@
 .percent(100);
 .percent(@n, @i: 1) when (@i =< @n) {
-    .pct-@{i} { width: (@i * 1px)!important; }
+    .pct-@{i} { width: (@i * 1%)!important; }
     .percent(@n, (@i + 1));
 }
 .pct-33 {width:33.33%!important;}
