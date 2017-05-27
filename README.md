@@ -105,8 +105,8 @@ ClassName | Description
 ---------|----------
 `.hidden`| visibility hidden
 `.visible`| visibility visible
-`.hover-pre-visible`| visible when hover previous sibling
+`.hover-prev-visible`| visible when hover previous sibling
 `.hover-parent-visible`| visible when hover parent
 `.hover-self-visible`| visible when hover self
-`.focus-pre-visible`| visible when focus previous sibling
+`.focus-prev-visible`| visible when focus previous sibling
 `.focus-parent-visible`| visible when focus parent
