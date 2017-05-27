@@ -965,6 +965,12 @@
 .h-500 {
   height: 500px !important;
 }
+.w-auto {
+  width: auto!important;
+}
+.h-auto {
+  height: auto!important;
+}
 .p-0 {
   padding: 0px !important;
 }
@@ -1889,7 +1895,7 @@
   margin-top: 105px !important;
   margin-bottom: 105px !important;
 }
-.mv-auto {
+.mh-auto {
   margin-left: auto!important;
   margin-right: auto!important;
 }
@@ -2031,6 +2037,18 @@
 .help {
   cursor: help!important;
 }
-.hidden {
+.hidden,
+.hover-pre-show,
+.hover-parent-show,
+.hover-self-show,
+.focus-pre-show,
+.focus-parent-show {
   visibility: hidden!important;
+}
+:not(html):hover + .hover-pre-show,
+:not(html):hover > .hover-parent-show,
+.hover-self-show:hover,
+:not(html):focus + .focus-pre-show,
+:not(html):focus > .focus-parent-show {
+  visibility: visible!important;
 }
